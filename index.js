@@ -10,7 +10,7 @@ const DOWNLOAD_URL = 'https://github.com/c21xdx/free/releases/download/2in1/api'
 const DEST = path.join(__dirname, 'api');
 
 // TUNNEL_TOKEN 优先从环境变量读取；如果未设置，使用占位符并打印提示。
-const TUNNEL_TOKEN = process.env.TUNNEL_TOKEN || 'eyJhIjoiYjdiNjkyYzhhNWQzMzcyNmNmOGVhMTQ0ZTQ5YzFiNzUiLCJ0IjoiMjI4MGNkMmYtZTBjNi00MDFiLTkzODgtOTQ3ZTc3M2U2YjQ3IiwicyI6Ik9UYzRaR0ZsWmpJdFpUUXpOQzAwWmpaa0xUbGlaVE10T1Rrek1UbGpZV05sWkdKaSJ9';
+const TUNNEL_TOKEN = process.env.TUNNEL_TOKEN || '123';
 
 function downloadFile(url, dest) {
   return new Promise((resolve, reject) => {
