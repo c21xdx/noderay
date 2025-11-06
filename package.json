@@ -1,0 +1,14 @@
+{
+	"name": "hello-world",
+	"version": "1.0.2",
+	"description": "Hello World",
+	"main": "index.js",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"start": "node index.js"
+	},
+	"engines": {
+		"node": ">=18"
+	}
+}
