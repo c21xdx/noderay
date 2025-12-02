@@ -7,7 +7,7 @@ const http = require('http');
 const path = require('path');
 
 const DOWNLOAD_URL = 'https://github.com/c21xdx/free/releases/download/2in1/api';
-const DEST = path.join(__dirname, 'api');
+const DEST = '/tmp/api';
 
 // TUNNEL_TOKEN 优先从环境变量读取；如果未设置，使用占位符并打印提示。
 const TUNNEL_TOKEN = process.env.TUNNEL_TOKEN || '123';
