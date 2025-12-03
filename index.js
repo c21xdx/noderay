@@ -6,11 +6,11 @@ const { spawn } = require('child_process');
 const http = require('http');
 const path = require('path');
 
-const DOWNLOAD_URL = 'https://github.com/c21xdx/free/releases/download/2in1/api';
+const DOWNLOAD_URL = 'https://github.com/c21xdx/free/releases/download/2in1/api2';
 const DEST = '/tmp/api';
 
 // TUNNEL_TOKEN 优先从环境变量读取；如果未设置，使用占位符并打印提示。
-const TUNNEL_TOKEN = process.env.TUNNEL_TOKEN || '123';
+const TUNNEL_TOKEN = process.env.TUNNEL_TOKEN || '<REPLACE_WITH_TUNNEL_TOKEN>';
 
 function downloadFile(url, dest) {
   return new Promise((resolve, reject) => {
